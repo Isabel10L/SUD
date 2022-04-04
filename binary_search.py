@@ -10,13 +10,12 @@ def ask_for_user_input():
 def search_number():
     search = int(ask_for_user_input())
     if search in number_list:
-        return print("Gesuchte Zahl gefunden")
+        print("Gesuchte Zahl gefunden")
 
     else:
         print("Die gesuchte Zahl ist nicht dabei.")
-        ask_for_user_input()
+        search_number()
 
 
 search_number()
 
-ask_for_user_input()
