@@ -13,7 +13,7 @@ for throw_repeat in range(1, throw):
 
     result = random.randint(1, 2)
     if result == 1:
-        try_throw= try_throw +1
+        try_throw = try_throw + 1
         print(str(try_throw) + ": Kopf")
 
     else:

@@ -1,4 +1,5 @@
-import GameLogik
+from KlausurVorbereitungMünzeWerfen.src import GameLogik
+
 
 class GameTest1:
     user_input: int
