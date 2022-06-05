@@ -5,7 +5,8 @@
 import random
 
 print("Willkommen beim Münzwurf!")
-user_input_throw = int(input("Wie viele Würfe wollen Sie machen?")) + 1
+print("Wie viele Würfe wollen Sie machen?")
+user_input_throw = int(input("Tragen Sie dazu eine ganze Zahl ein: ")) + 1
 try_throw = 0
 count_head = 0
 count_number = 0
