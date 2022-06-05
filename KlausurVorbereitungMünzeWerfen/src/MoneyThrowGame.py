@@ -24,6 +24,7 @@ for throw_repeat in range(1, user_input_throw):
         print(str(try_throw) + ": Zahl")
 
 
+# Spielauswertung
 def winner_result(count_head, count_number):
     print("Anzahl des Ergebnisses 'Kopf': " + str(count_head))
     print("Anzahl des Ergebnisses 'Zahl': " + str(count_number))
