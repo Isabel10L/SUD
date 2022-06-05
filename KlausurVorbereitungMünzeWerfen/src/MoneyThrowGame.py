@@ -1,5 +1,5 @@
 # Münze hat zwei seiten
-# Eingabe, wie viele würfe man machen kann
+# Eingabe, wie viele Würfe man machen kann
 # Ergebnis pro Wurf in Konsole eingeben
 # Stichwort: random
 import random
