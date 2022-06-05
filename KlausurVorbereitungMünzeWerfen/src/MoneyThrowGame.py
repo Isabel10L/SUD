@@ -1,4 +1,4 @@
-# Münze hat zweiseiten; Eingabe: wie viele Würfe man machen kann; Wiedergabe: Ergebnis pro Wurf; Stichwort: random
+# Münze hat zwei Seiten; Eingabe: wie viele Würfe man machen kann; Wiedergabe: Ergebnis pro Wurf; Stichwort: random
 import random
 
 # Spieleinführung + Nutzereingabe
