@@ -1,6 +1,7 @@
 # Münze hat zweiseiten; Eingabe: wie viele Würfe man machen kann; Wiedergabe: Ergebnis pro Wurf; Stichwort: random
 import random
 
+# Spieleinführung + Nutzereingabe
 print("Willkommen beim Münzwurf!")
 print("Wie viele Würfe wollen Sie machen?")
 user_input_throw = int(input("Tragen Sie dazu eine ganze Zahl ein: ")) + 1
