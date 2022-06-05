@@ -22,12 +22,16 @@ for throw_repeat in range(1, user_input_throw):
         try_throw = try_throw + 1
         print(str(try_throw) + ": Zahl")
 
-print("Anzahl des Ergebnisses 'Kopf': " + str(count_head))
-print("Anzahl des Ergebnisses 'Zahl': " + str(count_number))
 
-if count_head > count_number:
-    print("Kopf hat gewonnen!")
-elif count_head < count_number:
-    print("Zahl hat gewonnen!")
-else:
-    print("Es ist gleichstand.")
+def winner_result(count_head, count_number):
+    print("Anzahl des Ergebnisses 'Kopf': " + str(count_head))
+    print("Anzahl des Ergebnisses 'Zahl': " + str(count_number))
+    if count_head > count_number:
+        return "Kopf hat gewonnen!"
+    elif count_head < count_number:
+        return "Zahl hat gewonnen!"
+    else:
+        return "Es ist gleichstand."
+
+
+winner_result(count_head, count_number)
